@@ -15,9 +15,11 @@ namespace exercitando
 
             cbc variavelcbc = new cbc();
             variavelcbc.cabecalho();
+            // chamando cabecalho
 
             pagInic variavelpagInic = new pagInic();
             variavelpagInic.paginainicial();
+            //chamando menu
 
         }
 
