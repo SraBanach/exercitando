@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace exercitando
 {
-    public class Program
+    public class Program //sempre deixar como public 
     {
        public static void Main(string[] args)
         {

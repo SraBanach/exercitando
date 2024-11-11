@@ -4,14 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace exercitando
+namespace exercitando // nome da pasta 
 {
-    internal class pagInic
+    internal class pagInic //nome classe interna 
     {
 
-        public void paginainicial()
+        public void paginainicial() // tirar o static para conseguir chamar em outro local 
+            //public void contem o nome da funcao; 
         {
             Console.WriteLine("Escolha uma atividade:");
+            //digitar cw para aparecer console.WriteLine de forma automatica; 
             Console.WriteLine("Atividade 1");
             Console.WriteLine("Atividade 2");
             Console.WriteLine("Atividade 3");
@@ -20,9 +22,12 @@ namespace exercitando
             Console.WriteLine("Atividade 6");
             Console.WriteLine("Pressione 00 para sair");
 
-            int opcaoescolhida = int.Parse(Console.ReadLine());
+            int opcaoescolhida = int.Parse(Console.ReadLine()); // transformando string em numero inteiro e esperando a pessoa escrever. 
+            //igual o comando leia 
 
             switch (opcaoescolhida)
+                //switch = caso nenhuma das cases abaixos sejam chamadas, ativa a funcao 
+                //na case eu consigo fazer varias funções sem ficar um codigo poluido; 
             {
                 case 1:
                     //nome do arquivo, nome da variavel =  cria uma nova funcao
@@ -30,7 +35,7 @@ namespace exercitando
                     atv1 variavel1 = new atv1();
                     variavel1.atividade1();
 
-                    break;
+                    break; // para parar o codigo
                 case 2:
                     atv2 variavel2 = new atv2();
                     variavel2.atividade2();

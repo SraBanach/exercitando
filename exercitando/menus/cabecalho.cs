@@ -4,12 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace exercitando
+namespace exercitando // nome do arquivo 
 {
-    internal class cbc
+    internal class cbc // nome da classe interna 
     {
 
-        public void cabecalho()
+        public void cabecalho() // lembrar de tirar o static, para conseguir chamar em outro lugar 
         {
             Console.WriteLine("                           Autor(a) Kenya Banach");
 
